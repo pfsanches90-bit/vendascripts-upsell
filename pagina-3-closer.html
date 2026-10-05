@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uma última opção para você</title>
+<style>
+  :root { --ink:#17211d; --muted:#5d6a64; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Georgia,"Source Serif 4",serif; color:var(--ink); background:#f4f1ea; }
+  .wrap { max-width:640px; margin:0 auto; padding:24px 18px 48px; }
+  h1 { font-family:Arial,Helvetica,sans-serif; font-size:24px; line-height:1.2; margin:8px 0 10px; }
+  p { line-height:1.55; margin:0 0 12px; }
+  .card { background:#fff; border-radius:14px; padding:22px; margin:18px 0; border:1px solid #e3ddcf; }
+  .card h2 { font-family:Arial,Helvetica,sans-serif; font-size:19px; margin:0 0 10px; }
+  ul { padding-left:20px; margin:0 0 14px; } li { margin-bottom:6px; line-height:1.45; }
+  .preco { font-family:Arial,Helvetica,sans-serif; font-size:30px; font-weight:800; margin:8px 0 16px; }
+  [id^="kiwify-upsell-trigger"] { width:100%; padding:16px 14px; font-size:17px; font-weight:700; border:0; border-radius:10px; cursor:pointer; background:#2563eb; color:#fff; font-family:Arial,Helvetica,sans-serif; }
+  [id^="kiwify-upsell-cancel-trigger"] { text-align:center; margin-top:14px; font-size:14px; color:var(--muted); text-decoration:underline; cursor:pointer; font-family:Arial,Helvetica,sans-serif; }
+  .small { font-size:12px; color:var(--muted); font-family:Arial,Helvetica,sans-serif; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Tudo bem. Se for para levar um guia, este é o que mais ajuda a fechar.</h1>
+  <p>O fechamento é onde a maioria das conversas trava. Este guia organiza a condução em 5 movimentos, com scripts e métricas.</p>
+
+  <div class="card">
+    <h2>Do Vendedor ao Closer (25 páginas)</h2>
+    <ul>
+      <li>Os 5 movimentos: abrir, diagnosticar, traduzir em valor, pedir e garantir o próximo passo.</li>
+      <li>Pontuação de qualificação, tipos de "não" e banco de respostas por barreira.</li>
+    </ul>
+    <div class="preco">R$ 29,90</div>
+
+    <!-- BOTÃO DE UPSELL (gerado pela Kiwify). Último degrau: ao recusar, vai para a área de membros (sem downsell). -->
+    <div id="kiwify-upsell-V5G5nOZ" data-upsell-url="" data-downsell-url="" style="--kiwify-upsell-accept-bg:#2563eb;--kiwify-upsell-accept-color:#FFFFFF">
+      <button id="kiwify-upsell-trigger-V5G5nOZ">Sim! Quero o guia Do Vendedor ao Closer por R$ 29,90</button>
+      <div id="kiwify-upsell-cancel-trigger-V5G5nOZ">Não, obrigado. Quero ir para o meu acesso</div>
+    </div><script src="https://snippets.kiwify.com/upsell-v2/upsell.min.js"></script>
+  </div>
+
+  <p class="small">Compra única, acesso vitalício ao guia e às atualizações dele. O guia é educativo e não garante resultado de vendas.</p>
+</div>
+</body>
+</html>
